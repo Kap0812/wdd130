@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@700&display=swap');
+
+:root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --nav-bg-color: var(--primary-color);
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #fff;
+    --nav-hover-bg-color: var(--accent1-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header div {
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+p {
+    padding: 10px 0;
+}
+
+nav {
+    background-color: var(--nav-bg-color);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-bg-color);
+    color: var(--nav-hover-link-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
