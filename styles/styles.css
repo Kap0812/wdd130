@@ -30,3 +30,8 @@ aside{
     text-align: center;
 }
 
+aside h2{
+    color: #000;
+    position: relative;
+    top: 30px;
+    }
