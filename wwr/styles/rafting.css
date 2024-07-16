@@ -169,3 +169,35 @@ footer img {
     height: 30px;
     width: auto;
 }
+
+/* Example CSS Additions */
+#company-info {
+    margin: 20px;
+}
+
+#employees {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.employee {
+    flex: 1;
+    text-align: center;
+}
+
+#contact-form {
+    margin: 20px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+    margin-bottom: 10px;
+}
