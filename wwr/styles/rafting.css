@@ -245,3 +245,119 @@ footer img {
 .trips-table th {
     background-color: #5d5bf5;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.newsletter, .call-to-action, .grid-layout {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter form input, .newsletter form button {
+    margin: 0.5rem 0;
+}
+
+.call-to-action .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.grid-item {
+    background: #f0f0f0;
+    padding: 1rem;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 1rem;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: underline;
+}
