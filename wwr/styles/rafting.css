@@ -170,7 +170,7 @@ footer img {
     width: auto;
 }
 
-/* Example CSS Additions */
+
 #company-info {
     margin: 20px;
 }
@@ -200,4 +200,48 @@ footer img {
 #contact-form textarea,
 #contact-form button {
     margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trip {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.trips-table th {
+    background-color: #5d5bf5;
 }
